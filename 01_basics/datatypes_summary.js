@@ -1,4 +1,4 @@
-// Primitive 
+// Primitive type
 
 // 7 types: String, Number, Boolean, null, undefined, symbol, BigInt
 
@@ -53,3 +53,48 @@ const myFunction = function(){
 //know the datatype 
 
 console.log(typeof Symbol);
+
+
+
+
+
+
+//********************************************************************* */
+
+// two types of memory
+
+// Stack ( primitive ) and heap ( non-premitive )
+
+// in primitive type we use stack memory and when stack memory used , which means Whenever 
+// you declare a variable of a primitive data type and assign it to another variable, a copy of its value is created.
+
+
+
+// in heap original reference value received
+
+
+let myYoutubename = "anchalranadotcom" //goes to stack 
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+
+// we can access object by using .email like in the eg
+userTwo.email = "anchal@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
