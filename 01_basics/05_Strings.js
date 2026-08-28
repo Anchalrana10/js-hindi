@@ -38,5 +38,24 @@ console.log(anotherString);
 
 // Trim and replace method
 
+// Sometimes users unknowingly add extra spaces while filling out forms. We don't want to save these unnecessary spaces in the database.
+//  That's why we use `trim()`, which removes the spaces from the beginning and end of a string.
+
+const newStringOne = "    Anchal   "
+
+console.log(newStringOne); // in this it take the space with it 
+console.log(newStringOne.trim()); // This  remove the space 
+
+
+// Replace method 
+// The browser does not handle spaces in URLs directly, so it converts a space into `%20`. In this situation, 
+// if we want to remove or replace something, we can use the `replace()` method. It allows us to specify 
+// **what we want to search for** and **what we want to replace it with**.
+
+const url = "https://hitesh.com/hitesh%20choudhary"
+console.log(url.replace('%20', '-'));
+
+
+
 
 
