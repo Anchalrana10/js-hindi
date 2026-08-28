@@ -44,3 +44,6 @@ console.log(newDate.getMonth());
 //  user's/local region's format.
 
 
+newDate.toLocaleDateString('default',{
+    weekday: "long",
+})
