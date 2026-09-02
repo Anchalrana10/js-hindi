@@ -11,20 +11,20 @@ console.log(myArr[1]);
 //Array Methods
 
 
-//myArr.push(6)
-//myArr.push(7)
-//myArr.pop() // last value in array removed
+myArr.push(6)
+myArr.push(7)
+myArr.pop() // last value in array removed
 
-//myArr.unshift(9) // unshift() is an array method used to add one or more elements at the beginning of an array.
-//myArr.shift() //shift() is an array method that removes the first element from an array.
+myArr.unshift(9) // unshift() is an array method used to add one or more elements at the beginning of an array.
+myArr.shift() //shift() is an array method that removes the first element from an array.
 
-//console.log(myArr.includes(9)); // includes() → "Is this value present?" → true / false
-//console.log(myArr.indexOf(3)); //indexOf() is used to find the position (index) of a value in an array. if there is no value then it goes to -ve
+console.log(myArr.includes(9)); // includes() → "Is this value present?" → true / false
+console.log(myArr.indexOf(3)); //indexOf() is used to find the position (index) of a value in an array. if there is no value then it goes to -ve
 
 
-//const newArr = myArr.join() //join() is used to combine all array elements into one string.
-//console.log(myArr);
-//console.log(newArr); // values converted to string
+const newArr = myArr.join() //join() is used to combine all array elements into one string.
+console.log(myArr);
+console.log(newArr); // values converted to string
 
 
 // ++++++++++++slice or splice++++++++++++
