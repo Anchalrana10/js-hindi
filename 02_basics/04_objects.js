@@ -79,3 +79,31 @@ console.log(Object.entries(tinderUser)); // array inside an array , 1st property
 //  or explicitly check with the object to confirm whether that particular value is available.
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+
+
+
+// de - structuring of object
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Anchal"
+}
+
+// how to use these values:
+// you can use square notation
+
+// course.courseInstructor 
+
+// one more syntax 
+
+const {courseInstructor: instructor} = course // de - structure
+console.log(instructor);
+
+
+// API's concept
+
+
+
