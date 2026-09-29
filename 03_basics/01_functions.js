@@ -55,4 +55,40 @@ function loginUserMessage(username = "sam"){ // we can use default value
 }
 
 // console.log(loginUserMessage("Anchal"))
-console.log(loginUserMessage("Anchal")) // if there is no value passed then? shows undefined not null 
+// console.log(loginUserMessage("Anchal")) if there is no value passed then? shows undefined not null 
+
+
+function calculateCartPrice (val1, val2, ...num1){
+    return num1
+}
+// console.log(calculateCartPrice(200, 400, 500)) // packed in budle and give it to me for now its open  i.e rest operator
+
+const user = {
+    username: "Anchal",
+    price: 199
+}
+
+// how to use this object in the function
+
+function handleObject(anyobject){
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+    
+}
+
+// handleObject(user)
+
+handleObject({
+    username: "sam",
+    price: 399
+})
+
+
+const myNewArray = [200, 400, 100, 600]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+
+}
+
+// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([200, 400, 500, 10000]));
